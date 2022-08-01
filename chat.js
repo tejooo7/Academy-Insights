@@ -79,42 +79,42 @@ function getResponse() {
 //redirect
 function redirect1()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/c&c++.html"
+window.location="./templates/c&c++.html"
 }
 function redirect2()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/AWT.html"
+window.location="./templates/AWT.html"
 }
 function redirect3()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/DSA.html"
+window.location="./templates/DSA.html"
 }
 function redirect4()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/Dotnet.html"
+window.location="./templates/Dotnet.html"
 }
 function redirect5()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/DM.html"
+window.location="./templates/DM.html"
 }
 
 function redirect6()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/TOC.html"
+window.location="./templates/TOC.html"
 }
 function redirect7()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/ADBMS.html"
+window.location="./templates/ADBMS.html"
 }function redirect8()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/DCCN.html"
+window.location="./templates/DCCN.html"
 }
 function redirect9(){
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/ISCL.html"
+window.location="./templates/ISCL.html"
 }
 function redirect10()
 {
-window.location="file:///C:/Users/User/Desktop/PROJECT/templates/datascience.html"
+window.location="./templates/datascience.html"
 }
 
   
