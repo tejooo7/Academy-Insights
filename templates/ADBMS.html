@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ADBMS.css">
+    <title>ADBMS</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="C:\Users\User\Desktop\PROJECT\images\top.webp"  width="25px" height="25px"></button>
+    <h1>»━━━━━━━━━━━ADVANCED DATABASE Management SYSTEM━━━━━━━━━━━━«</h1>
+    
+      <h3>SYLLABUS</h3><p>
+<b>Unit-1(Introduction)</b><br>
+Introduction; An example; Characteristics of Database approach; Actors on the screen; Workers behind thescene; Advantages of using DBMS approach; A brief history of database applications; when not to use a DBMS.Data models, schemas and instances; Three-schema architecture and data independence; Database languages andinterfaces; The database system environment; Centralized and client-server architectures; Classification ofDatabase Management systems.
+<br>
+<b>Unit-2(Entity-Relationship Model)</b><br>
+Using High-Level Conceptual Data Models for Database Design; An Example Database Application; EntityTypes, Entity Sets, Attributes and Keys; Relationship types, Relationship Sets, Roles and Structural Constraints;Weak Entity Types; Refining the ER Design; ER Diagrams, Naming Conventions and Design Issues;Relationship types of degree higher than two.
+<br>
+<b>Unit-3 (Relational Model and Relational Algebra)</b><br>
+Relational Model Concepts; Relational Model Constraints and Relational Database Schemas; Update Operations,Transactions and dealing with constraint violations; Unary Relational Operations: SELECT and PROJECT;Relational Algebra Operations from Set Theory; Binary Relational Operations : JOIN and DIVISION;Additional Relational Operations; Examples of Queries in Relational Algebra; Relational Database Design UsingER- to-Relational Mapping.
+<br>
+<b>Unit-4 (SQL)</b><br>
+SQL Data Definition and Data Types; Specifying basic constraints in SQL; Schema change statements in SQL;Basic queries in SQL; More complex SQL Queries. Insert, Delete and Update statements in SQL; Specifyingconstraints as Assertion and Trigger; Views (Virtual Tables) in SQL; Additional features of SQL; Databaseprogramming issues and techniques; Embedded SQL, Dynamic SQL; Database stored procedures and SQL /PSM.
+<br>
+<b>Unit-5 (Database Design)</b><br>
+Informal Design Guidelines for Relation Schemas; Functional Dependencies; Normal Forms Based on PrimaryKeys; General Definitions of Second and Third Normal Forms; Boyce-Codd Normal Form
+<br>
+<b>Unit-6 (Transaction Management)</b><br>
+The ACID Properties; Transactions and Schedules; Concurrent Execution of Transactions; Lock- BasedConcurrency Control; Performance of locking; Transaction support in SQL; Introduction to crash recovery.
+<br></p>
+    <p>Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database.
+
+        DBMS manage the data, the database engine, and the database schema, allowing for data to be manipulated or extracted by users and other programs. This helps provide data security, data integrity, concurrency, and uniform data administration procedures.
+        
+        DBMS optimizes the organization of data by following a database schema design technique called normalization, which splits a large table into smaller tables when any of its attributes have redundancy in values. DBMS offer many benefits over traditional file systems, including flexibility and a more complex backup system.</p>
+       <br><hr><br> <H3>»━━━━━━━━━━━BOOKS ━━━━━━━━━━━━«</H3>
+    <iframe src="C:\Users\User\Desktop\PROJECT\BOOKS\ADBMS\book1.pdf" width="420" height="345">
+    </iframe>
+    <iframe src="C:\Users\User\Desktop\PROJECT\BOOKS\ADBMS\book2.pdf" width="420" height="345">
+    </iframe><br>
+Database Management Systems, Raghurama Krishnan, Johannes Gehrke, 3rd Edition, Tata Mc Graw Hill.<br>
+Database System Concepts, Silberschatz, Korth, 5th edition, Mc Graw hill.
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>

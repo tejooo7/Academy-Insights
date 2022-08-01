@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shorcut icon" href="C:\Users\User\Desktop\PROJECT\images\logoo11.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    
+    <title>ACADEMY INSIGHTS</title>
+
+
+
+    <style>
+   body{
+    background-color: #F1F1F1;
+   
+   border: 30px solid white;
+   }
+       * {
+  box-sizing: border-box;
+ 
+ 
+}
+.quote1{
+  margin-top: 20%;
+}
+
+        h2{
+          text-align: center;
+          font-family: 'Merriweather', serif;
+          font-size: 30px;
+          
+          
+         
+        }
+        h5{
+          text-align: left;
+          font-family: 'Merriweather', serif;
+          font-size: 15px;
+          font-weight: normal;
+         
+        }
+    </style>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="C:\Users\User\Desktop\PROJECT\images\top.webp"  width="25px" height="25px"></button>
+  <button onclick="chatbot()" id="myBtn" title="chatbot"><img src="C:\Users\User\Desktop\PROJECT\images\bot1.webp"  width="35px" height="35px"></button>       
+           
+<!--drpdown menu-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="C:\Users\User\Desktop\PROJECT\images\logoo11.png" >  ACADEMY 𝐈𝐍𝐒𝐈𝐆𝐇𝐓𝐒</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" >
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  𝐂𝐀𝐓𝐄𝐆𝐎𝐑𝐈𝐄𝐒</a>
+                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\c&c++.html">Programming through C & C++</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\AWT.html">Advanced Web Technology</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\DSA.html">Data Structure and Algorithm</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\Dotnet.html">Dot Net Technology with C#</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\DM.html">Discrete Mathematics</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\TOC.html">Theory of Computation</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\ADBMS.html">Advanced Database management system</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\DCCN.html">Data communication and computer networks</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\ISCL.html">Information Security and Cyber Law</a></li>
+                  <li><a class="dropdown-item" href="C:\Users\User\Desktop\PROJECT\templates\datascience.html">Introduction to Data Science</a></li>
+                </ul>
+              </li>
+             
+              <!--contact page-->  
+
+            <li class="nav-item">
+              <a class="nav-link"href="C:\Users\User\Desktop\PROJECT\templates\login.html">𝐋𝐎𝐆𝐈𝐍</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link"href="C:\Users\User\Desktop\PROJECT\templates\signup.html">𝐒𝐈𝐆𝐍 𝐔𝐏 </a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="C:\Users\User\Desktop\PROJECT\templates\contact.html">𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐔𝐒</a>
+            </li>
+          </ul>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<br>
+<br>
+
+      <h2 class="heading1">Welcome To Academy Insights!</h2>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-6" style="background-color: #F1F1F1; border-left: 12px solid #fff;">
+          <br>
+          <h2 class="quote1">“An investment in knowledge pays the best interest.”</h2><br>
+            <h5>~ Benjamin Franklin</h5>
+          
+        </div>
+        
+        <div class="col-lg-6" style=" background-color: #F1F1F1; border-right: 12px solid #fff;">
+          <img class="img1" src="C:\Users\User\Desktop\PROJECT\images\bgtrans.png" width="40%"
+          height= "50%" >
+        </div>
+      </div>
+
+
+
+<br>
+<div class="about-us">
+  <h1>ABOUT US</h1>
+  <hr class="underline1">
+  <br>
+  <p> Academy Insights is an online platform that offers wide range of free insights including C & C++, HTML, CSS, AWT,
+         Datascience, Discrete Mathematics, Data Structure and Many more. Tab on the Categories section to explore your interest!</p>
+        <br>
+         <p class="para"><b>»</b> Free Courses</p></b>
+         <p class="para"><b>»</b>  Lifetime Access</p></b>
+         <p class="para"><b>»</b>  Wide selection of courses</p></b>
+         <p class="para"><b>»</b>  Self-Paced Courses</p></b>
+         <hr class="underline4">
+</div>
+
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Chat with us!
+        <img src="C:\Users\User\Desktop\PROJECT\images\bot4.webp" width="50px" height="50px">         
+        
+      </button>
+
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="chatbox">
+                        
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                          <br><p>What information are you looking for?</p>
+                     
+                        <input type="button" value="c & c++" onclick="redirect1();"/>
+                        <input type="button" value="AWT" onclick="redirect2();"/>
+                        <input type="button" value="DSA" onclick="redirect3();"/>
+                        <br>
+                        <br>
+                        <input type="button" value="Dotnet" onclick="redirect4();"/>
+                        <input type="button" value="DM" onclick="redirect5();"/>
+                        <input type="button" value="TOC" onclick="redirect6();"/>
+                        <br>
+                        <br>
+                        <input type="button" value="ADBMS" onclick="redirect7();"/>
+                        <input type="button" value="DCCN" onclick="redirect8();"/>
+                        <input type="button" value="ISCL" onclick="redirect9();"/>
+                        <input type="button" value="datascience" onclick="redirect10();"/>
+                      </div>
+
+                      <!-- User input box -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg"
+                                  placeholder="Tap 'Enter' to send a message">
+                              <p></p>
+                          </div>
+
+                          <div class="chat-bar-icons">
+                              <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                  onclick="heartButton()"></i>
+                              <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                  onclick="sendButton()"></i>
+                          </div>
+                      </div>
+
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
+  <!-- course -->
+<div class="courses">
+ 
+<br>
+<br>
+    <h2 class="heading1-course">TOP CATEGORIES</h2>
+  
+<br>
+<br>
+<br>
+    <div class="row">
+
+      <div class="course-column col-lg-3 col-md-6">
+        <div class="card-1">
+            <img class="webdev"src="C:\Users\User\Desktop\PROJECT\images\webdev.webp"  alt="web dev" >
+          <h3 class="heading-course">WEB DEVELOPMENT</h3>
+          <div class="card-body">
+            <h2 class="course-text">Free</h2>
+          <p class="course-para">Building, creating and maintaining of websites. HTML, CSS, JavaScript etc are a prerequisite for this course.</p>
+          <button type="button" class="btn btn-outline-light btn-md course-button"><a href="C:\Users\User\Desktop\PROJECT\templates\AWT.html">Read More!</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="course-column col-lg-3 col-md-6">
+        <div class="card-2">
+          <img class="dm" src="C:\Users\User\Desktop\PROJECT\images\cat8.webp" alt="DM">
+          <h3 class="heading-course">DISCRETE MATHEMATICS</h3>
+          <div class="card-body">
+            <h2 class="course-text">Free</h2>
+              <p class="course-para">Fundamental concepts of sets, realtions and functions, math logic, probability and many more.</p>
+               <br>
+              <button type="button" class="btn btn-outline-light btn-md course-button"><a href="C:\Users\User\Desktop\PROJECT\templates\DM.html">Read More!</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="course-column col-lg-3 col-md-6">
+        <div class="card-3">
+          <img class="ds" src="C:\Users\User\Desktop\PROJECT\images\cat5.webp"  alt="DS">
+          <h3 class="heading-course">DATA SCIENCE</h3>
+          <div class="card-body">
+            <h2 class="course-text">Free</h2>
+            <p class="course-para">Comprises of maths,statistics, business intelligence, coding, data analysis, machine 
+              learning, big data.</p>
+             
+              <button type="button" class="btn btn-outline-light btn-md course-button"><a href="C:\Users\User\Desktop\PROJECT\templates\datascience.html">Read More!</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="course-column col-lg-3 col-md-6">
+        <div class="card-4">
+          <img class="iscl" src="C:\Users\User\Desktop\PROJECT\images\cat9.webp " alt="ISCL"  >
+          <h3 class="heading-course">INFORMATION SECURITY </h3>
+          <div class="card-body">
+            <h2 class="course-text">Free</h2>
+          
+            <p class="course-para" >Preventing unauthorized access, use, disclosure, modification, recording or destruction of information.
+         <br>
+         <button type="button" class="btn btn-outline-light btn-md course-button"><a href="C:\Users\User\Desktop\PROJECT\templates\ISCL.html">Read More!</a></button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+</div>
+
+
+<hr class="underline4">
+
+<section class="review1">
+  <br>
+        <h2>ACADEMY INSIGHTS REVIEW:</h2>
+          <br>
+          
+        <h4>Is it the right platform for you?</h4> 
+      <br>
+      <br>
+      <br>
+        <br>
+        <div class="revieww">
+          <div class="row">
+            <div class=" review-column col-lg-4 col-md-6">
+              <img class="review" src="C:\Users\User\Desktop\PROJECT\images\rvv1.png">
+            </div>
+            <div class=" review-column col-lg-4 col-md-6">
+              <img class="review" src="C:\Users\User\Desktop\PROJECT\images\rvv2.png">
+            </div>
+            <div class=" review-column col-lg-4 col-md-6">
+              <img class="review" src="C:\Users\User\Desktop\PROJECT\images\rvv3.png">
+            </div>
+          </div>
+      
+        
+        
+      
+      </div>
+</section>
+
+
+<div id="contact-us">
+<section class="contact">
+  <br>
+  <br>
+  <h2>CONTACT US</h2>
+  
+  <br>
+  <div class="container">
+    
+        <form action="https://formsubmit.co/2f8c204cf67aea5a39d7cc6301c1b737" method="POST">
+      
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+      
+        <select id="country" name="country">
+          <option value="australia">India</option>
+          <option value="canada">Japan</option>
+          <option value="usa">USA</option>
+        </select>
+    <br>
+    <br>
+      
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+         <button type="submit" value="Submit">submit</button>
+ 
+      </form>
+
+    
+  </div>
+</section>
+
+</div>
+<!--Grid column-->
+<!--footer-->
+<div class="links">
+<h2>𝐅𝐎𝐋𝐋𝐎𝐖 𝐔𝐒</h2>
+
+<h6>To Find the Path to Success!</h6>
+<a href=""><img src="C:\Users\User\Desktop\PROJECT\images\facebook.png" width="18px" height="18px">Facebook</a>
+<a href=""><img src="C:\Users\User\Desktop\PROJECT\images\instagram.png" width="18px" height="18px">Instagram</a>
+<a href=""><img src="C:\Users\User\Desktop\PROJECT\images\twitter.png" width="18px" height="18px">Twitter</a>
+<a href=""><img src="C:\Users\User\Desktop\PROJECT\images\youtube.png" width="18px" height="18px">Youtube</a>
+
+</div>
+<br>
+<section>
+ 
+  <p class="copyright">AcademyInsights © 2022</p>
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="C:\Users\User\Desktop\PROJECT\responses.js"></script>
+<script src="C:\Users\User\Desktop\PROJECT\chat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+   
+  
+    
+    <!--scroll up-->
+    
+    
+    <script>
+      
+      var mybutton = document.getElementById("myBtn");
+      
+     //
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      //
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+
+
+
+</body>
+</html>

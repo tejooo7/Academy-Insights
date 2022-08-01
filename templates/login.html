@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  
+    <title>Login </title>
+    <style>
+      body { 
+        background-color:#A5C9CA ; 
+    background-image: linear-gradient(#A5C9CA, #F1F1F1); 
+  font: monospace;
+ margin: auto;
+border-top: 80px solid #A5C9CA;
+border-bottom: 80px solid #F1F1F1;}
+      
+      /* Full-width input fields */
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      /* Set a style for all buttons */
+      button {
+        background-color: grey;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 48%;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        
+        
+      }
+      
+      button:hover {
+        opacity: 0.8;
+       
+      }
+      
+      /* Extra styles for the cancel button */
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: grey;
+      }
+      
+      /* Center the image and position the close button */
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+      }
+      
+      img.avatar {
+        width:0%;
+        border-radius: 50%;
+      }
+      
+      .container {
+        padding: 16px;
+      }
+      
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 60px;
+      }
+      
+      /* Modal Content/Box */
+      .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+      }
+      
+      /* The Close Button (x) */
+      .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: red;
+        cursor: pointer;
+      }
+      
+      /* Add Zoom Animation */
+      .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+      }
+      
+      @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+      }
+        
+      @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+      }
+      
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+        .cancelbtn {
+           width: 100%;
+        }
+      }
+
+/**--login info**/
+
+p{
+padding: 40px 100px;
+color: #2d3030;
+text-decoration: none;
+font-size: 20px;
+font-style: monospace;
+text-align: center;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+}
+.line1
+{
+  padding: 40px 100px;
+color: #2d3030;
+text-decoration: none;
+font-size: 30px;
+font-style: monospace;
+text-align: center;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+}
+hr{
+border-style: none;
+border-top-style: dotted;
+width: 5%;
+border-color: rgba(8, 44, 49, 0.3);
+border-width: 10px;
+}
+a{
+text-decoration: none;
+color: #232525;
+}
+
+      </style>
+</head>
+<body>
+    
+<!--login button-->
+ <!---->
+ <p class="line1">Good to see you again!</p><br><hr><br>
+ <p>By logging into Codified Insights, you agree to our Terms of use and Privacy Policy and get access to more
+  exclusive courses and updates.</p>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<div id="id01" class="modal">
+  
+
+ 
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="C:\Users\User\Desktop\PROJECT\images\logoo11.png" alt="chatbot" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+        <span class="psw"> <a href="#">Forgot password?</a></span>
+      </label>
+      <button type="submit" style="width:auto">Login</button>
+     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <span class="Register">Not a member? <a href="#!">Register</a></span> <br>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+     
+    </div>   
+  </form>
+</div>
+<!--end of login button-->
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+</body>
+</html>
