@@ -78,6 +78,7 @@ nav .container-fluid{
     padding: 0%;
     padding-right: 40%;
      text-align: justify;
+    white-space: normal;
    
   }
   nav .dropdown-item{
