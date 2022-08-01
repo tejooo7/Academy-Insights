@@ -1,9 +1,11 @@
-body{
+html,body{
   background-color: #e4e1d6;
   font: monospace;
- margin: auto;
-border-top: 80px solid rgba(211, 130, 130, 0.3);
-border-bottom: 80px solid rgba(211, 130, 130, 0.3);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+overflow-x: hidden;
+
 
 }
 h1 {
