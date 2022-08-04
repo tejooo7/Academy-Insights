@@ -10,21 +10,25 @@ function getBotResponse(input) {
     
     // greetings
     if (input == "hello") {
-        return "how can i help you!";
+        return "Hello There! How can i help you!";
+    } 
+     if (input == "Hello") {
+        return "Hello There! How can i help you!";
     } 
      else if (input == "hey") {
-        return "how can i help you!";
+        return "Hello There! How can i help you!";
+    } 
+      else if (input == "Hey") {
+        return "Hello There! How can i help you!";
     } 
     else if (input == "hi") {
-        return "how can i help you!";
+        return "Hello There! How can i help you!";
+    } 
+     else if (input == "Hi") {
+        return "Hello There! How can i help you!";
     } 
    
-    else if (input == "yo") {
-        return "Hi";
-    } 
-    else if (input == "hello") {
-        return "yo";
-    } 
+  
     else if (input == "hi") {
         return "Good day";
     } 
@@ -40,17 +44,32 @@ function getBotResponse(input) {
    else if(input == "who are you"){
     return "I am a ChatBot, How can I help you?";
    }
+     else if(input == "Who are you"){
+    return "I am a ChatBot, How can I help you?";
+   }
    else if (input == "name") {
     return "I am a ChatBot, How can I help you?";
 } 
+       else if (input == "Name") {
+    return "I am a ChatBot, How can I help you?";
+}
 else if (input == "what is your name") {
+    return "I am a ChatBot, How can I help you?";
+} 
+    else if (input == "What is your name") {
     return "I am a ChatBot, How can I help you?";
 } 
 
 else if (input == "your name") {
     return "I am a ChatBot, How can I help you?";
 } 
+    else if (input == "Your name") {
+    return "I am a ChatBot, How can I help you?";
+} 
 else if (input == "name please") {
+    return "I am a ChatBot, How can I help you?";
+} 
+    else if (input == "Name please") {
     return "I am a ChatBot, How can I help you?";
 } 
 
@@ -59,10 +78,19 @@ else if (input == "name please") {
 else if (input == "c") {
     return "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old C is strongly associated with UNIX, as it was developed to write the UNIX operating system.";
 } 
+    else if (input == "C") {
+    return "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old C is strongly associated with UNIX, as it was developed to write the UNIX operating system.";
+}
 else if (input == "what is c") {
     return "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old C is strongly associated with UNIX, as it was developed to write the UNIX operating system.";
 } 
+    else if (input == "What is c") {
+    return "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old C is strongly associated with UNIX, as it was developed to write the UNIX operating system.";
+} 
 else if (input == "define c") {
+    return "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old. C is strongly associated with UNIX, as it was developed to write the UNIX operating system.";
+} 
+    else if (input == "Define c") {
     return "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old. C is strongly associated with UNIX, as it was developed to write the UNIX operating system.";
 } 
 else if (input == "defination of c") {
@@ -74,8 +102,14 @@ else if (input == "difference between c and c++") {
 else if (input == "history of c") {
     return "The base or father of programming languages is ‘ALGOL.’ It was first introduced in 1960. ‘ALGOL’ was used on a large basis in European countries. ‘ALGOL’ introduced the concept of structured programming to the developer community. In 1967, a new computer programming language was announced called as ‘BCPL’ which stands for Basic Combined Programming Language. BCPL was designed and developed by Martin Richards, especially for writing system software. This was the era of programming languages. Just after three years, in 1970 a new programming language called ‘B’ was introduced by Ken Thompson that contained multiple features of ‘BCPL.’ This programming language was created using UNIX operating system at AT&T and Bell Laboratories. Both the ‘BCPL’ and ‘B’ were system programming languages.";
 } 
+    else if (input == "History of c") {
+    return "The base or father of programming languages is ‘ALGOL.’ It was first introduced in 1960. ‘ALGOL’ was used on a large basis in European countries. ‘ALGOL’ introduced the concept of structured programming to the developer community. In 1967, a new computer programming language was announced called as ‘BCPL’ which stands for Basic Combined Programming Language. BCPL was designed and developed by Martin Richards, especially for writing system software. This was the era of programming languages. Just after three years, in 1970 a new programming language called ‘B’ was introduced by Ken Thompson that contained multiple features of ‘BCPL.’ This programming language was created using UNIX operating system at AT&T and Bell Laboratories. Both the ‘BCPL’ and ‘B’ were system programming languages.";
+} 
 
 else if (input == "father of c") {
+    return "Dennis Ritchie";
+} 
+    else if (input == "Father of c") {
     return "Dennis Ritchie";
 } 
 else if (input == "features of c language") {
@@ -92,10 +126,19 @@ else if (input == "features of c programming language") {
 else if(input == "what is awt"){
     return "Web Technology introduces you to the basic concepts of the internet, it also deals with the resources needed to access the Internet. This course introduces concepts, principles and methods in current client and server-side Web technologies. Basic Web technologies such as HTML, HTTP, CSS, XML, JavaScript etc. are a prerequisite to take this course. The focus of this course is rather on advanced topics in emerging Web technologies.";
    }
+    else if(input == "What is awt"){
+    return "Web Technology introduces you to the basic concepts of the internet, it also deals with the resources needed to access the Internet. This course introduces concepts, principles and methods in current client and server-side Web technologies. Basic Web technologies such as HTML, HTTP, CSS, XML, JavaScript etc. are a prerequisite to take this course. The focus of this course is rather on advanced topics in emerging Web technologies.";
+   }
 else if(input == "define awt"){
     return "Web Technology introduces you to the basic concepts of the internet, it also deals with the resources needed to access the Internet. This course introduces concepts, principles and methods in current client and server-side Web technologies. Basic Web technologies such as HTML, HTTP, CSS, XML, JavaScript etc. are a prerequisite to take this course. The focus of this course is rather on advanced topics in emerging Web technologies.";
    }
+    else if(input == "Define awt"){
+    return "Web Technology introduces you to the basic concepts of the internet, it also deals with the resources needed to access the Internet. This course introduces concepts, principles and methods in current client and server-side Web technologies. Basic Web technologies such as HTML, HTTP, CSS, XML, JavaScript etc. are a prerequisite to take this course. The focus of this course is rather on advanced topics in emerging Web technologies.";
+   }
 else if(input == "awt"){
+    return "Web Technology introduces you to the basic concepts of the internet, it also deals with the resources needed to access the Internet. This course introduces concepts, principles and methods in current client and server-side Web technologies. Basic Web technologies such as HTML, HTTP, CSS, XML, JavaScript etc. are a prerequisite to take this course. The focus of this course is rather on advanced topics in emerging Web technologies.";
+   }
+    else if(input == "Awt"){
     return "Web Technology introduces you to the basic concepts of the internet, it also deals with the resources needed to access the Internet. This course introduces concepts, principles and methods in current client and server-side Web technologies. Basic Web technologies such as HTML, HTTP, CSS, XML, JavaScript etc. are a prerequisite to take this course. The focus of this course is rather on advanced topics in emerging Web technologies.";
    }
 else if(input == "defination of awt"){
@@ -105,6 +148,9 @@ else if (input == "what is html") {
     return "HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. It makes the text more interactive and dynamic. It can turn text into images, tables, links.";
 } 
 else if (input == "html") {
+    return "HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. It makes the text more interactive and dynamic. It can turn text into images, tables, links.";
+} 
+    else if (input == "Html") {
     return "HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. It makes the text more interactive and dynamic. It can turn text into images, tables, links.";
 } 
 else if (input == "what is xml") {
@@ -118,17 +164,23 @@ else if (input == "xml") {
 else if (input == "data structure") {
     return "The data structure name indicates itself that organizing the data in memory. There are many ways of organizing the data in the memory as we have already seen one of the data structures, i.e., array in C language. The data structure is not any programming language like C, C++, java, etc. It is a set of algorithms that we can use in any programming language to structure the data in the memory.";
 } 
-else if (input == "what is data structure") {
+    else if (input == "Data structure") {
+    return "The data structure name indicates itself that organizing the data in memory. There are many ways of organizing the data in the memory as we have already seen one of the data structures, i.e., array in C language. The data structure is not any programming language like C, C++, java, etc. It is a set of algorithms that we can use in any programming language to structure the data in the memory.";
+} 
+else if (input == "What is data structure") {
+    return "The data structure name indicates itself that organizing the data in memory. There are many ways of organizing the data in the memory as we have already seen one of the data structures, i.e., array in C language. The data structure is not any programming language like C, C++, java, etc. It is a set of algorithms that we can use in any programming language to structure the data in the memory.";
+}
+    else if (input == "what is data structure") {
     return "The data structure name indicates itself that organizing the data in memory. There are many ways of organizing the data in the memory as we have already seen one of the data structures, i.e., array in C language. The data structure is not any programming language like C, C++, java, etc. It is a set of algorithms that we can use in any programming language to structure the data in the memory.";
 } 
 
 else if (input == "define data structure") {
     return "The data structure name indicates itself that organizing the data in memory. There are many ways of organizing the data in the memory as we have already seen one of the data structures, i.e., array in C language. The data structure is not any programming language like C, C++, java, etc. It is a set of algorithms that we can use in any programming language to structure the data in the memory.";
 } 
-else if (input == "books") {
+else if (input == "books for data structure") {
     return " Fundamentals of Data structures in C, 2nd Edition, E.Horowitz, S.Sahni and Susan Anderson-Freed, Universities Press.";
 } 
-else if (input == "books recommandations") {
+else if (input == "books recommandations for data structure") {
     return " Fundamentals of Data structures in C, 2nd Edition, E.Horowitz, S.Sahni and Susan Anderson-Freed, Universities Press.";
 } 
 
@@ -154,15 +206,27 @@ else if (input == "define discrete math") {
 else if (input == "discrete math") {
     return "Discrete mathematics is the branch of mathematics dealing with objects that can consider only distinct, separated values. This tutorial includes the fundamental concepts of Sets, Relations and Functions, Mathematical Logic, Group theory, Counting Theory, Probability, Mathematical Induction, and Recurrence Relations, Graph Theory, Trees and Boolean Algebra";
 } 
+    else if (input == "Discrete math") {
+    return "Discrete mathematics is the branch of mathematics dealing with objects that can consider only distinct, separated values. This tutorial includes the fundamental concepts of Sets, Relations and Functions, Mathematical Logic, Group theory, Counting Theory, Probability, Mathematical Induction, and Recurrence Relations, Graph Theory, Trees and Boolean Algebra";
+} 
 
 //TOC
 else if (input == "what is toc") {
     return "Automata theory (also known as Theory Of Computation) is a theoretical branch of Computer Science and Mathematics, which mainly deals with the logic of computation with respect to simple machines, referred to as automata. Automata* enables scientists to understand how machines compute the functions and solve problems. The main motivation behind developing Automata Theory was to develop methods to describe and analyze the dynamic behavior of discrete systems. Automata originated from the word “Automaton” which is closely related to “Automation”.";
 } 
+    else if (input == "What is toc") {
+    return "Automata theory (also known as Theory Of Computation) is a theoretical branch of Computer Science and Mathematics, which mainly deals with the logic of computation with respect to simple machines, referred to as automata. Automata* enables scientists to understand how machines compute the functions and solve problems. The main motivation behind developing Automata Theory was to develop methods to describe and analyze the dynamic behavior of discrete systems. Automata originated from the word “Automaton” which is closely related to “Automation”.";
+} 
 else if (input == "define toc") {
     return "Automata theory (also known as Theory Of Computation) is a theoretical branch of Computer Science and Mathematics, which mainly deals with the logic of computation with respect to simple machines, referred to as automata. Automata* enables scientists to understand how machines compute the functions and solve problems. The main motivation behind developing Automata Theory was to develop methods to describe and analyze the dynamic behavior of discrete systems. Automata originated from the word “Automaton” which is closely related to “Automation”.";
 } 
+    else if (input == "Define toc") {
+    return "Automata theory (also known as Theory Of Computation) is a theoretical branch of Computer Science and Mathematics, which mainly deals with the logic of computation with respect to simple machines, referred to as automata. Automata* enables scientists to understand how machines compute the functions and solve problems. The main motivation behind developing Automata Theory was to develop methods to describe and analyze the dynamic behavior of discrete systems. Automata originated from the word “Automaton” which is closely related to “Automation”.";
+} 
 else if (input == "theory of computation") {
+    return "Automata theory (also known as Theory Of Computation) is a theoretical branch of Computer Science and Mathematics, which mainly deals with the logic of computation with respect to simple machines, referred to as automata. Automata* enables scientists to understand how machines compute the functions and solve problems. The main motivation behind developing Automata Theory was to develop methods to describe and analyze the dynamic behavior of discrete systems. Automata originated from the word “Automaton” which is closely related to “Automation”.";
+} 
+    else if (input == "Theory of computation") {
     return "Automata theory (also known as Theory Of Computation) is a theoretical branch of Computer Science and Mathematics, which mainly deals with the logic of computation with respect to simple machines, referred to as automata. Automata* enables scientists to understand how machines compute the functions and solve problems. The main motivation behind developing Automata Theory was to develop methods to describe and analyze the dynamic behavior of discrete systems. Automata originated from the word “Automaton” which is closely related to “Automation”.";
 } 
 else if (input == "define automaton") {
@@ -179,10 +243,15 @@ else if (input == "define ADBMS") {
 else if (input == "define DBMS") {
     return "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database. DBMS manage the data, the database engine, and the database schema, allowing for data to be manipulated or extracted by users and other programs. This helps provide data security, data integrity, concurrency, and uniform data administration procedures. DBMS optimizes the organization of data by following a database schema design technique called normalization, which splits a large table into smaller tables when any of its attributes have redundancy in values. DBMS offer many benefits over traditional file systems, including flexibility and a more complex backup system.";
 } 
-else if (input == "DBMS") {
+else if (input == "Dbms") {
+    return "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database. DBMS manage the data, the database engine, and the database schema, allowing for data to be manipulated or extracted by users and other programs. This helps provide data security, data integrity, concurrency, and uniform data administration procedures. DBMS optimizes the organization of data by following a database schema design technique called normalization, which splits a large table into smaller tables when any of its attributes have redundancy in values. DBMS offer many benefits over traditional file systems, including flexibility and a more complex backup system.";
+} else if (input == "dbms") {
     return "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database. DBMS manage the data, the database engine, and the database schema, allowing for data to be manipulated or extracted by users and other programs. This helps provide data security, data integrity, concurrency, and uniform data administration procedures. DBMS optimizes the organization of data by following a database schema design technique called normalization, which splits a large table into smaller tables when any of its attributes have redundancy in values. DBMS offer many benefits over traditional file systems, including flexibility and a more complex backup system.";
 } 
-else if (input == "ADBMS") {
+else if (input == "Adbms") {
+    return "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database. DBMS manage the data, the database engine, and the database schema, allowing for data to be manipulated or extracted by users and other programs. This helps provide data security, data integrity, concurrency, and uniform data administration procedures. DBMS optimizes the organization of data by following a database schema design technique called normalization, which splits a large table into smaller tables when any of its attributes have redundancy in values. DBMS offer many benefits over traditional file systems, including flexibility and a more complex backup system.";
+} 
+    else if (input == "adbms") {
     return "Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database. DBMS manage the data, the database engine, and the database schema, allowing for data to be manipulated or extracted by users and other programs. This helps provide data security, data integrity, concurrency, and uniform data administration procedures. DBMS optimizes the organization of data by following a database schema design technique called normalization, which splits a large table into smaller tables when any of its attributes have redundancy in values. DBMS offer many benefits over traditional file systems, including flexibility and a more complex backup system.";
 } 
 
@@ -191,6 +260,9 @@ else if (input == "what is computer networks") {
     return "A computer network is a set of devices connected through links. A node can be computer, printer, or any other device capable of sending or receiving the data. The links connecting the nodes are known as communication channels.Computer Network uses distributed processing in which task is divided among several computers. Instead, a single computer handles an entire task, each separate computer handles a subset.";
 } 
 else if (input == "computer networks") {
+    return "A computer network is a set of devices connected through links. A node can be computer, printer, or any other device capable of sending or receiving the data. The links connecting the nodes are known as communication channels.Computer Network uses distributed processing in which task is divided among several computers. Instead, a single computer handles an entire task, each separate computer handles a subset.";
+} 
+    else if (input == "Computer networks") {
     return "A computer network is a set of devices connected through links. A node can be computer, printer, or any other device capable of sending or receiving the data. The links connecting the nodes are known as communication channels.Computer Network uses distributed processing in which task is divided among several computers. Instead, a single computer handles an entire task, each separate computer handles a subset.";
 } 
 else if (input == "what is dccn") {
@@ -202,6 +274,9 @@ else if (input == "dccn") {
 
 //ISCL
 else if (input == "iscl") {
+    return "Information Security is basically the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information. Information can be physical or electronic one. Information can be anything like Your details or we can say your profile on social media, your data in mobile phone, your biometrics etc. Thus Information Security spans so many research areas like Cryptography, Mobile Computing, Cyber Forensics, Online Social Media etc.";
+} 
+    else if (input == "Information security") {
     return "Information Security is basically the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information. Information can be physical or electronic one. Information can be anything like Your details or we can say your profile on social media, your data in mobile phone, your biometrics etc. Thus Information Security spans so many research areas like Cryptography, Mobile Computing, Cyber Forensics, Online Social Media etc.";
 } 
 else if (input == " what is iscl") {
@@ -219,6 +294,9 @@ else if (input == "what is data science") {
     return "The data science syllabus comprise Maths, statistics, business intelligence, coding, data analysis, machine learning, big data.Data science is an inter-disciplinary discipline that makes use of algorithms, data sets, and scientific techniques that help gain insights from structured or unstructured data.";
 } 
 else if (input == "data science") {
+    return "The data science syllabus comprise Maths, statistics, business intelligence, coding, data analysis, machine learning, big data.Data science is an inter-disciplinary discipline that makes use of algorithms, data sets, and scientific techniques that help gain insights from structured or unstructured data.";
+} 
+    else if (input == "Data science") {
     return "The data science syllabus comprise Maths, statistics, business intelligence, coding, data analysis, machine learning, big data.Data science is an inter-disciplinary discipline that makes use of algorithms, data sets, and scientific techniques that help gain insights from structured or unstructured data.";
 } 
 else if (input == "what is data science all  about") {
