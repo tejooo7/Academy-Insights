@@ -467,9 +467,10 @@ margin-right: 15%;
     }
 
   .copyright{
-    padding-top: 45px;
-    padding-right: 45px;
-    text-align: center;
+    padding-top: 10%;
+
+    padding-left: 43%;
+   
     color: black;
   
   }
